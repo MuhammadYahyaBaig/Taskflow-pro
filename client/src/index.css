@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: seagreen;
+    color: cyan;
+}
+button,
+a{
+    transition: all 0.2s ease;
+}
