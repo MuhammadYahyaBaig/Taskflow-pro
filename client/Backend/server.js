@@ -4,7 +4,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import connectDB from "./config/db.js"; 
 import Task from "./models/Tasks.js";
-import taskRoutes from "./routes/taskRoutes.js";
+import taskRoutes from "./routes/taskroutes.js";
 import authRoutes from "./routes/authRoutes.js";
 
 const app = express();
